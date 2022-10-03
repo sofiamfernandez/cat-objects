@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background-image: url("fondo.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    /* height: 500px; You must set a specified height */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+}
+.info {
+   margin-top: 120px;
+   padding-left: 170px;
+}
+@media (max-width: 700px) { 
+    .info{
+        padding-left: 10px;
+        margin-top: 130px;
+    }
+    .img{
+        margin-top: 0 !important;
+    }
+}
